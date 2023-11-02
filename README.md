@@ -59,7 +59,7 @@ To view this Portfolio project locally or make use of the code, follow these ste
 `git clone https://github.com/deponte-designer/deponte-web-portfolio.git`
 
 2. **Navigate to the Project Directory:**
-`cd horiseon-website-accessibility-optimization`
+`cd deponte-web-portfolio`
 
 3. **Open the HTML File:**
 - Locate the `index.html` file in your code editor.
