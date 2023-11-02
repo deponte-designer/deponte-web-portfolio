@@ -42,6 +42,32 @@ Use this table of contents to quickly navigate to the information you need:
 
 ## Acceptance Criteria
 
+To complete.
+
+
+## Screenshot
+
+![Website Screenshot](./images/portfolio-screenshot-1.png)
+*The image above provides a visual representation 'About Me' of the main page. It showcases both the appearance and functionality of the web application.*
+
+
+## Usage
+
+To view this Portfolio project locally or make use of the code, follow these steps:
+
+1. **Clone the Repository:**
+`git clone https://github.com/deponte-designer/deponte-web-portfolio.git`
+
+2. **Navigate to the Project Directory:**
+`cd horiseon-website-accessibility-optimization`
+
+3. **Open the HTML File:**
+- Locate the `index.html` file in your code editor.
+- Open it in a web browser to view the project.
+
+Feel free to explore the code, make modifications, and provide feedback. If you have suggestions or improvements to share, please don't hesitate to create a pull request or submit an issue on the GitHub repository.
+
+>Your input and contributions are highly valuable, and they will help enhance the project further!
 
 
 ## Credits
@@ -58,34 +84,17 @@ Use this table of contents to quickly navigate to the information you need:
 
 #### For the index.html file
 - [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-- [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
-- [Semantic HTML `<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main)
-- [Bootstrap 4 Navs](https://www.w3schools.com/bootstrap4/bootstrap_navs.asp)
 
 #### For the style.css file
-- [Alternate text for background images - Considerations and techniques](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
-- [W3C: Techniques for WCAG 2.0](https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F3)
-- [CSS Backgrounds](https://www.w3schools.com/css/css_background.asp)
 - [CSS CheatSheet](https://htmlcheatsheet.com/css/)
 
 #### Website Accessibility Testing
 - [Web Accessibility Evaluation Report](https://wave.webaim.org/report#/https://deponte-designer.github.io/horiseon-website-accessibility-optimization/)
 
 
-
 ## Features
 
-During the development of this project, I encountered several challenges as it was my first project. I invested a lot of time in research to implement the best methodologies. While the project is functional, there are several features I hope to implement in the future to enhance its quality and user experience:
-
-1. **Improved Image Quality:** I plan to replace current images with higher-quality ones to enhance visual appeal.
-
-2. **Back-to-Top Icon:** Adding a smooth "scroll to top" icon for better navigation on longer pages.
-
-3. **Enhanced User-Friendly Interactions:** Implementing more user-friendly interactions to create a smoother browsing experience.
-
-4. **Animations:** Incorporating subtle animations to make the static website more engaging and visually appealing.
-
-5. **Auto Date in Footer:** Automatically updating the date in the footer, providing a more dynamic feel.
+To complete.
 
 >Your support and feedback are greatly appreciated as I work on these improvements!
 
@@ -94,14 +103,14 @@ During the development of this project, I encountered several challenges as it w
 
 This project is deployed and accessible at the following URLs:
 
-- [Live Application](https://deponte-designer.github.io/horiseon-website-accessibility-optimization): Explore the demo live version of the website.
+- [Live Application](https://deponte-designer.github.io/deponte-web-portfolio): Explore the demo live version of the website.
 
-- [GitHub Repository](https://github.com/deponte-designer/horiseon-website-accessibility-optimization): Visit the repository for the project, which includes a README describing the details.
+- [GitHub Repository](https://github.com/deponte-designer/deponte-web-portfolio): Visit the repository for the project, which includes a README describing the details.
 
 
 ## Conclusion
 
-Thank you for visiting the Horiseon Website Accessibility Optimization project. Your support, feedback, and contributions are greatly appreciated as we work to make the web more accessible and user-friendly. If you have any suggestions, issues to report, or ideas for collaboration, please don't hesitate to reach out. Together, we can continue to improve this project and create a better web experience for everyone.
+Thank you for visiting this Portfolio project. Your support, feedback, and contributions are greatly appreciated as we work to make the web more accessible and user-friendly. If you have any suggestions, issues to report, or ideas for collaboration, please don't hesitate to reach out. Together, we can continue to improve this project and create a better web experience for everyone.
 
 **Happy coding!**
 

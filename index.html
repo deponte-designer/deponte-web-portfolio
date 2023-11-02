@@ -10,29 +10,34 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <meta name="description"
+    content="Welcome to my Portfolio! A passionate graphic designer with a background in design and a new adventure into web development. Explore this creative journey, dedication to learning, and the exciting world of web development.">
+  <meta name="keywords"
+    content="dePonte, Designer, Web Developer, Front-End, Design, Web Development Bootcamp, Creativity, GitHub, HTML, CSS, JavaScript, Portfolio, Collaboration, Technology">
+  <meta name="author" content="dePonte, Sofia">
   <link rel="stylesheet" href="css/style.css" />
   <title>dePonte // Designer & Frontend Web Developer</title>
 </head>
 
 <body>
-  <!-- main logo / nav -->
+  <!-- * ---------- main logo / nav ---------- -->
   <header>
     <figure>
-      <img class="avatar" src="./images/avatar.png" alt="My avatar"/>
+      <img class="avatar" src="./images/avatar.png" alt="My avatar" />
     </figure>
-    <h1 class="name-header">dePonte</h1>
-    
+    <h1 class="title-header">dePonte</h1>
+
     <nav class="navigation">
       <ul>
         <li class="bottom-line"><a href="#about">About Me</a></li>
         <li class="bottom-line"><a href="#work">Work</a></li>
-        <li class="bottom-line"><a href="#contact-me">Contact Me</a></li>
+        <li class="bottom-line"><a href="#contact">Contact Me</a></li>
         <li class="bottom-line"><a href="https://github.com/deponte-designer" target="_blank">Resume</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- hero banner -->
+  <!-- * ---------- hero banner ---------- -->
   <section class="hero-banner">
     <div>
       <h2 class="quote-banner">A journey of reinvention and exploration</h2>
@@ -40,41 +45,75 @@
   </section>
 
   <main class="page-wrapper">
-    <!-- about me -->
+    <!-- * ---------- about me ---------- -->
     <section id="about" class="page-section">
-      <h2 class="sub-title">About <br> Me</h2>
+      <h2>About <br> Me</h2>
+
       <p class="about-content">
-        Hello, I'm Sofia, a designer with a decade of experience in both private and public sectors, holding a Bachelor's degree in Design. My journey led me to the United Kingdom, where I'm venturing into a Front-End Web Development bootcamp. With a passion for design and a commitment to constant learning, I'm excited to blend my skills and experiences to contribute to innovative web projects.
+        Hello, I'm Sofia, a designer with a decade of experience in both private and public sectors, holding a
+        Bachelor's degree in Design. My journey led me to the United Kingdom, where I'm venturing into a Front-End Web
+        Development bootcamp. With a passion for design and a commitment to constant learning, I'm excited to blend my
+        skills and experiences to contribute to innovative web projects.
         <br>
         <br>
-        Feel free to connect with me to explore collaboration opportunities, share insights, or discuss tech. Thanks for visiting my portfolio; I can't wait to connect with you!
+        Feel free to connect with me to explore collaboration opportunities, share insights, or discuss tech. Thanks for
+        visiting my portfolio; I can't wait to connect with you!
       </p>
     </section>
 
-    <!-- portfolio container -->
+    <!-- * ---------- portfolio container ---------- -->
     <section id="work" class="page-section">
-      <h2 class="sub-title">Work</h2>
-      <div class="flex-container">
-        <a class="flex-item item1"
-          href="https://deponte-designer.github.io/horiseon-website-accessibility-optimization/" target="_blank"
-          rel="noopener noreferrer"></a>
-        <a class="flex-item item2" href="#"></a>
-        <a class="flex-item item3" href="#"></a>
-        <a class="flex-item item4" href="#"></a>
-        <a class="flex-item item5" href="#"></a>
+      <h2>Work</h2>
+
+      <div class="portfolio-container">
+        <article class="project">
+          <figure class="project-box">
+            <h3 class="project-box-heading">Code Refactor for Horiseon Agency</h3>
+            <p class="project-box-text">HTML/CSS</p>
+          </figure>
+          <a class="flex-project project-1"
+            href="https://deponte-designer.github.io/horiseon-website-accessibility-optimization/" target="_blank">
+            <img class="project-img" src="./images/portfolio-01.jpg"
+              alt="First project image, mockup of a mac with the screenshot" />
+          </a>
+        </article>
+        <article>
+          <figure class="project-box">
+            <h3 class="project-box-heading">Portfolio with flexbox</h3>
+            <p class="project-box-text">HTML/CSS</p>
+          </figure>
+          <a class="flex-project project-2"
+            href="https://deponte-designer.github.io/horiseon-website-accessibility-optimization/" target="_blank">
+            <img class="project-img" src="./images/portfolio-02.jpg"
+              alt="First project image, mockup of a mac with the screenshot" />
+          </a>
+        </article>
+        <article>
+          <figure class="project-box">
+            <h3 class="project-box-heading">Project 3 Soon</h3>
+            <p class="project-box-text">HTML/CSS</p>
+          </figure>
+          <a class="flex-project project-3"
+            href="https://deponte-designer.github.io/horiseon-website-accessibility-optimization/" target="_blank">
+            <img class="project-img" src="./images/portfolio-03.jpg"
+              alt="First project image, mockup of a mac with the screenshot" />
+          </a>
+        </article>
+        <a class="flex-project project-3" href="#"></a>
+        <a class="flex-project project-4" href="#"></a>
+        <a class="flex-project project-5" href="#"></a>
         <!-- <a class="flex-item item6" href="#"></a>
         <a class="flex-item item7" href="#"></a> -->
       </div>
     </section>
 
-    <!-- contact -->
+    <!-- * ---------- contact ---------- -->
     <section id="contact" class="page-section contact">
-      <h2 class="sub-title">Contact <br> Me</h2>
-      <div>
-        <a href="tel:+447711222333">+44 7711 222333</a>
-        <a class="" href="mail:myemail@professional.com">myemail@professional.com</a>
-        <a class="" href="https://github.com/deponte-designer" target="_blank">GitHub</a>
-        <a class="" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      <h2>Contact <br> Me</h2>
+      <div class="contact-content">
+        <a class="" href="tel:+447711222333">+44 7711 222333</a>
+        <a class="" href="mail:myemail@work.com">myemail@work.com</a>
+        <a class="" href="https://deponte.wixsite.com/designer/portfolio" target="_blank">Graphic Design Portfolio</a>
         <a class="" href="https://instagram.com/code.missdots" target="_blank">Instagram</a>
       </div>
     </section>
@@ -82,7 +121,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 dePonte</p>
+    <p>&copy; 2023 <a class="" href="https://github.com/deponte-designer" target="_blank">dePonte</a></p>
   </footer>
 
 </body>
