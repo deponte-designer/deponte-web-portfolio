@@ -84,13 +84,17 @@ Feel free to explore the code, make modifications, and provide feedback. If you 
 
 #### For the index.html file
 - [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [The Anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 #### For the style.css file
 - [CSS CheatSheet](https://htmlcheatsheet.com/css/)
+- [Google Fonts](https://fonts.google.com/)
+- [Hover effect: expand bottom border](https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border)
+- [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
+
 
 #### Website Accessibility Testing
 - [Web Accessibility Evaluation Report](https://wave.webaim.org/report#/https://deponte-designer.github.io/horiseon-website-accessibility-optimization/)
-
 
 ## Features
 
