@@ -294,8 +294,6 @@ footer a {
 /* * --- Media Query for Tablets --- */
 /* applies to medium devices (tablets, less than 1000px) */
 @media only screen and (max-width: 1000px) {
-  /* ! --------------------------------------------- TO BE COMPLETE */
-
 
   /* * ----- HEADER STYLE ----- */
   header {
@@ -326,7 +324,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     min-width: 60vw;
-    font-size: 2vh;
+    font-size: 14px;
     /* padding-left: none; */
   }
 
@@ -347,7 +345,7 @@ footer a {
   /* * ----- MAIN SECTION STYLE ----- */
   .page-wrapper {
     margin: 0 10vw;
-    }
+  }
 
   .page-section {
     display: flex;
@@ -392,7 +390,7 @@ footer a {
     margin-right: 0;
   }
 
-  /* ---------- work ----------- */
+  /* *---------- WORK GRID ----------- */
   .portfolio-grid {
     grid-template-rows: 32% 17% 17% 17% 17%;
     grid-template-columns: 100%;
@@ -404,17 +402,14 @@ footer a {
       "project-5";
   }
 
-
-
 }
 
 
 /* * --- Media Query for Smartphones --- */
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 576px) {
-  /* ! --------------------------------------------- TO BE COMPLETE */
 
-
+  /* * ----- HEADER STYLE ----- */
   header {
     margin: 0;
     padding: 0;
@@ -426,6 +421,7 @@ footer a {
     background-color: #116466;
   }
 
+  /* * ----- HAMBURGER MENU STYLE ----- */
   /* Hide the links inside the navigation menu (except for logo/home) */
   header nav ul {
     display: none;
@@ -452,20 +448,21 @@ footer a {
 
   /* Add a grey background color on mouse-over */
   header nav a:hover {
-    background-color: var(--header-color);
-    color: var(--bg-header);
+    none;
+    background-color: none;
+    color: var(--hover-color);
   }
 
-  /* Style the active link (or home/logo) */
-  /* .active {
-  background-color: #04AA6D;
-  color: white;
-} */
+  ul {
+    padding-inline-start: 0px;
+    text-align: center;
+  }
 
+  /* * ----- MAIN SECTION STYLE ----- */
+  .page-wrapper {
+    margin: 0 7vw;
+  }
 
-.page-wrapper {
-margin: 0 7vw;
-}
 
 
 }
