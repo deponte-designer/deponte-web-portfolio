@@ -53,7 +53,6 @@ header {
   padding: 2vh 10vh;
   background-color: var(--bg-header);
   color: var(--header-color);
-  /* overflow: visible; */
   max-height: 12vh;
   width: 100vw;
 }
