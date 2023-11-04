@@ -158,7 +158,9 @@ nav a:hover:after {
   color: var(--bg-header);
 }
 
-.page-section p, .portfolio-grid, .contact-content {
+.page-section p,
+.portfolio-grid,
+.contact-content {
   padding-left: 40px;
 }
 
@@ -294,6 +296,7 @@ footer a {
 @media only screen and (max-width: 1000px) {
   /* ! --------------------------------------------- TO BE COMPLETE */
 
+
   /* * ----- HEADER STYLE ----- */
   header {
     flex-direction: column;
@@ -324,40 +327,72 @@ footer a {
     justify-content: space-between;
     min-width: 60vw;
     font-size: 2vh;
-    padding-left: -40px;
+    /* padding-left: none; */
   }
 
   nav ul {
-    margin:  1vh 1vh;
+    margin: 1vh 1vh;
   }
 
 
-/* * ----- MAIN SECTION STYLE ----- */
+  /* * ----- HERO BANNER STYLE ----- */
+  .hero-banner {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7vh 7vw;
+  }
+
+
+  /* * ----- MAIN SECTION STYLE ----- */
+  .page-wrapper {
+    margin: 0 10vw;
+    }
+
   .page-section {
     display: flex;
     flex-direction: column;
+    margin-top: 4vh;
   }
 
-  /* .page-section {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    margin: 80px 0;
-    gap: 40px;
-  } */
-  
+  .page-section p,
+  .portfolio-grid,
+  .contact-content {
+    padding-left: 0;
+  }
+
   .page-section h2 {
-    font-size: 40px;
-    text-align: right;
-    border-right: 3px solid var(--bg-header);
-    padding-right: 15px;
-    margin: 5px;
-    color: var(--bg-header);
+    font-size: 30px;
+    text-align: center;
+    border-right: none;
+    border-bottom: 2px solid var(--bg-header);
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
 
+  p {
+    font-size: 14px;
+  }
 
+  br {
+    display: none;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-content a {
+    font-size: 14px;
+  }
+
+  #contact a {
+    margin-right: 0;
+  }
 
   /* ---------- work ----------- */
-
   .portfolio-grid {
     grid-template-rows: 32% 17% 17% 17% 17%;
     grid-template-columns: 100%;
@@ -379,10 +414,11 @@ footer a {
 @media only screen and (max-width: 576px) {
   /* ! --------------------------------------------- TO BE COMPLETE */
 
+
   header {
     margin: 0;
     padding: 0;
-
+    min-height: 10vh;
   }
 
   nav {
@@ -425,5 +461,11 @@ footer a {
   background-color: #04AA6D;
   color: white;
 } */
+
+
+.page-wrapper {
+margin: 0 7vw;
+}
+
 
 }
