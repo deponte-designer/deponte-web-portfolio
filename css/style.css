@@ -59,7 +59,7 @@ header {
 
 figure {
   display: flex;
-  margin-top: 6vh;
+  margin-top: 10vh;
   overflow: visible;
   z-index: 1;
 }
