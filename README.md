@@ -42,13 +42,26 @@ Use this table of contents to quickly navigate to the information you need:
 
 ## Acceptance Criteria
 
-To complete.
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+- When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you.
+- When one of the links in the navigation is clicked then the UI scrolls to the corresponding section.
+- When viewing the section about your work then the section contains titled images of your applications.
+- When presented with the your first application then that application's image should be larger in size than the others.
+- When images of the applications are clicked then the user is taken to that deployed application.
+- When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport.
 
 
 ## Screenshot
 
-![Website Screenshot](./images/portfolio-screenshot-1.png)
-*The image above provides a visual representation 'About Me' of the main page. It showcases both the appearance and functionality of the web application.*
+![Website Screenshot on laptop](./images/portfolio-screenshot-laptop.png)
+*The image above provides a visual representation of the main page. It showcases both the appearance and functionality of the web application on laptop with the mouse hover on 'About Me'.*
+
+![Website Screenshot on tablet](./images/portfolio-screenshot-tablet.png)
+*The image above provides a visual representation on tablet.*
+
+![Website Screenshot on mobile](./images/portfolio-screenshot-mobile.png)
+*The image above provides a visual representation on mobile.*
 
 
 ## Usage
@@ -75,10 +88,7 @@ Feel free to explore the code, make modifications, and provide feedback. If you 
 ### Tutorials and Resources
 
 #### For the README.md file
-- [Awesome README examples](https://github.com/matiassingers/awesome-readme)
-- Articles on Acceptance Criteria:
-  - [Acceptance Criteria for User Stories: Purposes, Formats, Examples, and Best Practices](https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/)
-  - [Acceptance Criteria: Why It’s Important and How to Write It](https://blog.american-technology.net/acceptance-criteria/)
+- [Acceptance Criteria for User Stories: Purposes, Formats, Examples, and Best Practices](https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
 - [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
 
@@ -95,7 +105,7 @@ Feel free to explore the code, make modifications, and provide feedback. If you 
 
 
 #### Website Accessibility Testing
-- [Web Accessibility Evaluation Report](https://wave.webaim.org/report#/https://deponte-designer.github.io/horiseon-website-accessibility-optimization/)
+- [Web Accessibility Evaluation Report](https://wave.webaim.org/report#/https://deponte-designer.github.io/deponte-web-portfolio/)
 
 ## Features
 
