@@ -55,12 +55,17 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 ## Screenshot
 
 ![Website Screenshot on laptop](./images/portfolio-screenshot-laptop.png)
+
 *The image above provides a visual representation of the main page. It showcases both the appearance and functionality of the web application on laptop with the mouse hover on 'About Me'.*
 
+
 ![Website Screenshot on tablet](./images/portfolio-screenshot-tablet.png)
+
 *The image above provides a visual representation on tablet.*
 
+
 ![Website Screenshot on mobile](./images/portfolio-screenshot-mobile.png)
+
 *The image above provides a visual representation on mobile.*
 
 
